@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "baritone",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "Mod template for JavaJumper's mods",
+  "name": "Baritone Mod",
+  "description": "Mod that adds baritone to minecraft",
   "authors": [
     "JavaJumper"
   ],
@@ -14,7 +14,7 @@
   },
 
   "license": "GPL v3",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/baritone/icon.png",
 
   "environment": "*",
   "entrypoints": {
@@ -22,14 +22,10 @@
       "io.github.javajump3r.mod.i"
     ]
   },
-  "mixins": [
-    "modid.mixins.json"
-  ],
-
   "depends": {
     "fabricloader": ">=0.14.14",
     "fabric-api": "*",
-    "minecraft": "~1.19.3",
+    "minecraft": "~1.19.*",
     "java": ">=17"
   },
   "custom": {
