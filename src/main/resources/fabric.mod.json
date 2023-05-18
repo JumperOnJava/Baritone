@@ -18,8 +18,8 @@
 
   "environment": "*",
   "entrypoints": {
-    "client": [
-      "io.github.javajump3r.mod.ModInit"
+    "main": [
+      "io.github.javajump3r.mod.i"
     ]
   },
   "mixins": [
